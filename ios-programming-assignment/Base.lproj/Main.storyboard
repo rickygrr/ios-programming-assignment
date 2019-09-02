@@ -44,6 +44,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <segue destination="scG-fG-LtY" kind="show" identifier="goHome" id="Qth-Wh-14I"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -55,7 +58,19 @@
                     <view key="view" contentMode="scaleToFill" id="zZs-Ay-CAq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kBM-kH-tEz">
+                                <rect key="frame" x="169" y="437.5" width="76" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="kBM-kH-tEz" firstAttribute="centerX" secondItem="zZs-Ay-CAq" secondAttribute="centerX" id="8ZS-7H-30O"/>
+                            <constraint firstItem="kBM-kH-tEz" firstAttribute="centerY" secondItem="zZs-Ay-CAq" secondAttribute="centerY" id="qZW-AA-URC"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="pRF-QX-Igx"/>
                     </view>
                 </viewController>
