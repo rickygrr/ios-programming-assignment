@@ -8,5 +8,6 @@ target 'ios-programming-assignment' do
   # Pods for ios-programming-assignment
   pod 'Firebase/Auth'
   pod 'FirebaseUI/Auth'
+  pod 'FirebaseUI/Email'
 
 end

@@ -25,6 +25,8 @@ PODS:
   - FirebaseUI/Auth (8.0.4):
     - Firebase/Auth (~> 6.0)
     - GoogleUtilities/UserDefaults
+  - FirebaseUI/Email (8.0.4):
+    - FirebaseUI/Auth
   - GoogleDataTransport (1.1.3)
   - GoogleDataTransportCCTSupport (1.0.2):
     - GoogleDataTransport (~> 1.1)
@@ -55,6 +57,7 @@ PODS:
 DEPENDENCIES:
   - Firebase/Auth
   - FirebaseUI/Auth
+  - FirebaseUI/Email
 
 SPEC REPOS:
   trunk:
@@ -85,6 +88,6 @@ SPEC CHECKSUMS:
   GTMSessionFetcher: 61bb0f61a4cb560030f1222021178008a5727a23
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
 
-PODFILE CHECKSUM: e39a4b98ae0d71f48611120fd957e009200a09b9
+PODFILE CHECKSUM: a39c3d0da5f877d0fec3c798e92793588791d513
 
 COCOAPODS: 1.8.0.beta.2

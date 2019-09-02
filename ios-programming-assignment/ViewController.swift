@@ -26,6 +26,7 @@ class ViewController: UIViewController {
         
         // Set ourselves as the delegate
         authUI?.delegate = self
+        authUI?.providers = [FUIEmailAuth()]
         
         // Get a reference to the auth UI view controller
         let authViewController = authUI!.authViewController()
