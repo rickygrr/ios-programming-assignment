@@ -10,9 +10,11 @@ import UIKit
 import FirebaseUI
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var roundedCornerButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        roundedCornerButton.layer.cornerRadius = 4
         // Do any additional setup after loading the view.
     }
 
