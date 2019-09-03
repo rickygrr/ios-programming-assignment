@@ -12,6 +12,7 @@ class SecondViewController: UIViewController {
 
     @IBOutlet weak var GuessLabel: UILabel!
     @IBOutlet weak var GuessTextField: UITextField!
+    @IBOutlet weak var roundedCornerButton2: UIButton!
     
     let lowerBound = 1
     let upperBound = 100
@@ -22,6 +23,7 @@ class SecondViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    roundedCornerButton2.layer.cornerRadius = 4
         generateRandomNumber()
     }
     

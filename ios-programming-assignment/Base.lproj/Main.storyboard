@@ -116,6 +116,7 @@
                     <connections>
                         <outlet property="GuessLabel" destination="QiR-6q-0oz" id="T8m-y5-NAw"/>
                         <outlet property="GuessTextField" destination="xTG-Dp-EPx" id="jpP-u7-zn9"/>
+                        <outlet property="roundedCornerButton2" destination="btS-FR-Tg3" id="Qle-nI-MdN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a1V-tm-5DB" userLabel="First Responder" sceneMemberID="firstResponder"/>
