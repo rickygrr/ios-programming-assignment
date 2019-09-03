@@ -30,7 +30,6 @@ class SecondViewController: UIViewController {
     }
     
     
-    
     @IBAction func submitButtonPressed(_ sender: UIButton) {
         if let guess = GuessTextField.text {
             if let guessInt = Int(guess) {
