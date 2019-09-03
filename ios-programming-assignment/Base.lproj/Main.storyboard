@@ -64,10 +64,10 @@
             </objects>
             <point key="canvasLocation" x="178.40000000000001" y="103.44827586206897"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="z9P-B8-1Gd">
             <objects>
-                <viewController id="scG-fG-LtY" sceneMemberID="viewController">
+                <viewController id="scG-fG-LtY" customClass="SecondViewController" customModule="ios_programming_assignment" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zZs-Ay-CAq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
